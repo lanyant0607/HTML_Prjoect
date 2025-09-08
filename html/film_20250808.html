@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/star.css">
+    <script defer src="../JS/star.js"></script>
+    <title>評分電影</title>
+
+</head>
+
+<body data-movie-id="film_20250808.html">
+    <header>
+        <div class="container-fluid py-3  bg-dark">
+            <h3 class="ms-2">評分電影</h3>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">回首頁</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="page-title">劇場版「鬼滅之刃」無限城篇 第一章 猗窩座再襲</h2>
+        <img src="../IMG/film_20250808.jpg" alt="鬼滅之刃" class="poster">
+        <p>主要演員：無</p>
+        <p>簡介：為了面對與鬼即將到來的決戰，竈門炭治郎和隊員們集體參加聯合強化訓練《柱訓練》。此時，鬼舞辻無慘卻出現在「鬼殺隊」的大本營產屋敷府。「柱」們與炭治郎在無慘的操縱之下落入了充滿謎團的空間，炭治郎等人落下的地方，正是鬼的大本營「無限城」──「鬼殺隊」與「鬼」的決戰，序幕就此揭開。
+        </p>
+        <div class="rating">
+            <span>評分：</span>
+            <div class="stars">
+                <span data-star="1">&#9733;</span>
+                <span data-star="2">&#9733;</span>
+                <span data-star="3">&#9733;</span>
+                <span data-star="4">&#9733;</span>
+                <span data-star="5">&#9733;</span>
+            </div>
+        </div>
+
+        <div class="comments">
+            <h4>留言區</h4>
+            <textarea id="commentBox" placeholder="寫下你的評論..."></textarea>
+            <button id="submitBtn">送出留言</button>
+            <div id="commentList"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

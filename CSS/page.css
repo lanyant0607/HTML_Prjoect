@@ -1,0 +1,22 @@
+body {
+    background-color: #f9e2e2;
+    /* background-image: url("../IMG/back2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
