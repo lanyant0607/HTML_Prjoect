@@ -161,3 +161,13 @@ h3 {
 .ec-title a {
     color: #222; /* 你想要的顏色 */
 }
+.ec-thumbnail {
+    width: 390px;
+    height: 219px;
+    overflow: hidden;
+}
+.ec-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
